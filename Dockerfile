@@ -13,8 +13,4 @@ RUN git clone https://github.com/spack/spack && cd spack && git checkout release
 RUN mkdir -p /home/user_spack/.spack
 COPY packages.yaml /home/user_spack/.spack/packages.yaml
 RUN . ~/spack/share/spack/setup-env.sh &&\
-    spack install python@3.5.0 ^openssl@1.0.2t &&\ 
-    spack install python@3.6.0 &&\
-    spack install python@3.7.0 &&\
-    spack install python@3.8.0 &&\
-    spack install py-tox
+    spack install hpx@1.4.1
