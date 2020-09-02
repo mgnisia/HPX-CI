@@ -1,4 +1,4 @@
-![](https://img.shields.io/docker/pulls/mgnisia/spack-python)
+![](https://img.shields.io/docker/pulls/mgnisia/hpx-ci)
 
 # Container for HPX CI Testing
 
