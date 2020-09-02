@@ -7,5 +7,5 @@ This repo contains a `Dockerfile` which can be used as a container for testing i
 ## Docker Hub
 
 ```shell
-docker pull mgnisia/spack-ci:latest
+docker pull mgnisia/hpx-ci:latest
 ```
